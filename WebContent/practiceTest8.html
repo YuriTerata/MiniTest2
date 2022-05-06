@@ -3,19 +3,20 @@
 <head>
 <meta charset="UTF-8">
 <title>入力フォーム</title>
+<link href="css/style.css" rel="stylesheet">
 </head>
 <body>
-	<form action="#">
+	<form action=submit.html method="get">
 		<p>
-			名前:
+			<span>名前:</span>
 			<input type="text" name="name">
 		</p>
 		<p>
-			メールアドレス:
+			<span>メールアドレス:</span>
 			<input type="text" name="mail">
 		</p>
 		<p>
-			誕生日:
+			<span>誕生日:</span>
 			<select name="month">
 				<option value="">-</option>
 				<option value="1">1</option>
@@ -66,12 +67,12 @@
 			</select>
 		</p>
 		<p>
-			性別：
+			<span>性別：</span>
 			<input type="radio" name="性別" value="男性"> 男性
 			<input type="radio" name="性別" value="女性"> 女性
 		</p>
 		<p>
-			OS:
+			<span>OS:</span>
 			<input type="checkbox" name="os" value="Windows7">Windows7
         	<input type="checkbox" name="os" value="Windows8">Windows8
         	<input type="checkbox" name="os" value="Windows10">Windows10
@@ -79,7 +80,7 @@
         	<input type="checkbox" name="os" value="Linux">Linux
 		</p>
 		<p>
-			ひとこと:
+			<span>ひとこと:</span>
 			<textarea name="words" rows="3" cols="30">  </textarea>
 		</p>
 		<p>
